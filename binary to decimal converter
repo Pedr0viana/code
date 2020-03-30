@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int  main (void)
+{
+	int numero;
+
+	printf("digite o numero a se convertido para binario\n");
+	scanf("%d", &numero);
+	
+		
+	while(numero!=1)
+	{
+		printf("%d", numero%2);
+		
+		numero=numero/2;
+	}
+	
+		
+	system("pause");
+	
+	return 0;
+	}
